@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="minds.warrior.com.astropics.Deleteactivity">
+    <item android:id="@+id/action_refresh"
+          android:title="@string/reload"
+          android:orderInCategory="100"
+          android:icon="@android:drawable/ic_popup_sync"
+          android:visible="false"
+          app:showAsAction="always"/>
+</menu>

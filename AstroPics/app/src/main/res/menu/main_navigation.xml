@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/picture_subheader"
+        android:title="@string/nav_images_subheader">
+        <menu>
+            <item
+                android:id="@+id/nav_image_of_the_day"
+                android:checked="true"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/nav_image_of_the_day"/>
+        </menu>
+    </item>
+
+</menu>

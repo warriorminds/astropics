@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AstroPics</string>
+
+    <!-- Navigation items -->
+    <string name="nav_image_of_the_day">Image of the Day</string>
+    <string name="nav_images_subheader">Pictures</string>
+    <string name="nav_config_subheader">Configuration</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Drawer strings -->
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="title_activity_picture_detail">PictureDetail</string>
+
+    <string name="imaging_cameras">Imaging Cameras:</string>
+    <string name="imaging_info">Imaging Information</string>
+    <string name="description">Description</string>
+    <string name="imaging_telescopes">Imaging Telescopes:</string>
+    <string name="location">Location</string>
+    <string name="contains">Subjects</string>
+    <string name="not_available">Not Available</string>
+
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="search_hint">Search Photos</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_string_error">Invalid search term</string>
+    <string name="no_results">No results</string>
+    <string name="title_activity_image_of_the_day">ImageOfTheDayActivity</string>
+    <string name="search">Search...</string>
+    <string name="reload">Reload</string>
+    <string name="error">Error. Try again later...</string>
+</resources>
