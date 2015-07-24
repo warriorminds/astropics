@@ -18,6 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.PictureDetailActivity"
+            android:label="@string/title_activity_picture_detail" >
+        </activity>
+        <activity
+            android:name=".activities.ImageActivity"
+            android:label="@string/title_activity_image" >
+        </activity>
+        <activity
+            android:name=".activities.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".activities.ImageOfTheDayActivity"
+            android:label="@string/title_activity_image_of_the_day" >
+        </activity>
     </application>
 
 </manifest>

@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.warriorminds.astropics.R;
+import com.warriorminds.astropics.activities.PictureDetailActivity;
 import com.warriorminds.astropics.retrofit.Image;
 import com.warriorminds.astropics.utils.Constants;
 
@@ -61,9 +62,9 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent intent = new Intent(mActivity, PictureDetailActivity.class);
+                Intent intent = new Intent(mActivity, PictureDetailActivity.class);
                 intent.putExtra(Constants.IMAGE_EXTRA, image);
-                mActivity.startActivity(intent);*/
+                mActivity.startActivity(intent);
             }
         });
 

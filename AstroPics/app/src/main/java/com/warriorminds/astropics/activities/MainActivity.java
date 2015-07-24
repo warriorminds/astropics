@@ -68,9 +68,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setupOtherViewElements();
         downloadImages();
 
-
     }
 
+    @Override
+    protected void onDestroy() {
+        if(getImagesTask != null)
+            getImagesTask.cancel(true);
+        super.onDestroy();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -154,7 +159,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(MainActivity.this, SearchActivity.class));
+                startActivity(new Intent(MainActivity.this, SearchActivity.class));
             }
         });
 
@@ -166,7 +171,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void navigate(final int menuId) {
         switch (menuId) {
             case R.id.nav_image_of_the_day:
-                //startActivity(new Intent(MainActivity.this, ImageOfTheDayActivity.class));
+                startActivity(new Intent(MainActivity.this, ImageOfTheDayActivity.class));
                 break;
         }
     }

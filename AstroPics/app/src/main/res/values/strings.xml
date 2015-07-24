@@ -29,4 +29,7 @@
     <string name="search">Search...</string>
     <string name="reload">Reload</string>
     <string name="error">Error. Try again later...</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>
