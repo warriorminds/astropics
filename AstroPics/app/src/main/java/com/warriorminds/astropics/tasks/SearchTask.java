@@ -74,6 +74,9 @@ public class SearchTask extends AsyncTask<Search, Void, ImageList> {
 
     @Override
     protected void onPostExecute(ImageList imageList) {
-        searchResults.displayResults(imageList.getImagesList());
+        if(imageList != null)
+            searchResults.displayResults((imageList.getImagesList() != null) ? imageList.getImagesList() : null);
+        else
+            searchResults.displayResults(null);
     }
 }

@@ -224,8 +224,4 @@ public class SearchActivity extends AppCompatActivity implements SearchTask.ISea
             tvError.setVisibility(View.VISIBLE);
         }
     }
-
-    public void closeSearchView(String searchTerm) {
-        this.searchTerm = searchTerm;
-    }
 }

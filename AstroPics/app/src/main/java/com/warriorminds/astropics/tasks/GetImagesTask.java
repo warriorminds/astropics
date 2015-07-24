@@ -66,6 +66,9 @@ public class GetImagesTask extends AsyncTask<Integer, Void, ImageList> {
 
     @Override
     public void onPostExecute(ImageList imageList) {
-        processResults.displayResults(imageList.getImagesList());
+        if(imageList != null)
+            processResults.displayResults((imageList.getImagesList() != null) ? imageList.getImagesList() : null);
+        else
+            processResults.displayResults(null);
     }
 }

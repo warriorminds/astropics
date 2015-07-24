@@ -10,8 +10,8 @@ import retrofit.http.Query;
 public interface AstrobinWebServiceProxy {
 
     String ENDPOINT = "http://www.astrobin.com/api/v1";
-    String API_KEY_VALUE = "YOUR API KEY VALUE HERE";
-    String API_SECRET_VALUE = "YOUR API SECRET VALUE HERE";
+    String API_KEY_VALUE = "debb24754b68db456fd12320f26d41364576d7fd";
+    String API_SECRET_VALUE = "1242f0af9446226ccb14dbae30222609325f2923";
     String FORMAT_VALUE = "json";
 
     // Parameters

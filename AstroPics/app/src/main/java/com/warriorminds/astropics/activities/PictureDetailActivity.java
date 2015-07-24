@@ -60,7 +60,7 @@ public class PictureDetailActivity extends AppCompatActivity implements GetLocat
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(image.getTitle());
-
+        
         mImageBig = (ImageView) findViewById(R.id.ivBigImage);
 
         tvDescription = (TextView) findViewById(R.id.tvDescription);
